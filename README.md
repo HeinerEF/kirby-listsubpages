@@ -1,4 +1,4 @@
-# Listsubpages
+# Kirby Plugin: Listsubpages
 
 By using the *KirbyTag* **`listsubpages`**, a *dynamically* generated **links list** with clickable *links to the "subpages" of the respective page* (or a parent page specified in the KirbyTag) *and a freely selectable heading* (e.g., "Select the desired page:") can be inserted into any *textarea* field in the panel.
 
@@ -45,7 +45,7 @@ and then **this is visible in the frontend**:
 
 ### Download
 
-[Download](https://github.com/heineref/kirby-listsubpages/archive/master.zip) the contents of this repository as Zip file.
+[Download](https://github.com/HeinerEF/kirby-listsubpages/archive/master.zip) the contents of this repository as Zip file.
 
 Rename the **extracted** folder to `heineref_listsubpages` and copy it into the `site/plugins/` directory in your Kirby project. If it does not exist, create a new directory `site/plugins/` first.
 This file `README.md` therefore receives the path `site/plugins/heineref_listsubpages/README.md`.
@@ -53,7 +53,7 @@ This file `README.md` therefore receives the path `site/plugins/heineref_listsub
 ### Composer
 
 ```html
-composer require heineref/kirby-listsubpages
+composer require HeinerEF/kirby-listsubpages
 ```
 
 ### Git submodule
@@ -61,7 +61,7 @@ composer require heineref/kirby-listsubpages
 If you have used git in your project before:
 
 ```html
-git submodule add https://github.com/heineref/kirby-listsubpages.git site/plugins/heineref_listsubpages
+git submodule add https://github.com/HeinerEF/kirby-listsubpages.git site/plugins/heineref_listsubpages
 ```
 
 

@@ -1,7 +1,10 @@
 # This file is for unifying the coding style for different editors and IDEs
 # EditorConfig is awesome: https://EditorConfig.org
 #
-# last update: 2026-05-31 by HeinerEF
+# last update: 2026-10-03 by HeinerEF
+
+# top-most EditorConfig file
+root = true
 
 [*]
 charset = utf-8
@@ -11,14 +14,16 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# [*.php]
-## "indent_size = 4" is needed for:
-### PHP PSR-12 Coding Standards
-### https://www.php-fig.org/psr/psr-12/
-## but HeinerEF doesn't like the large indentation
-# indent_size = 4
+## [*.php]
+### "indent_size = 4" and "indent_style = space" are required for php-files under "2.4 Indenting" in the
+### PHP PSR-12 Coding Standards (https://www.php-fig.org/psr/psr-12/) in accordance with
+### https://www.php-fig.org/psr/psr-12/#24-indenting
+## but HeinerEF doesn't like the large indentation ("indent_size = 4")
 
-[*.md,*.txt]
+[*.{scss,less,sass}]
+indent_size = 4
+
+[*.{txt,md}]
 trim_trailing_whitespace = false
 insert_final_newline = false
 

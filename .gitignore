@@ -1,11 +1,24 @@
 # The .gitignore file contains a list of files that should not be included in the Git repository. It should include all files that are never needed for your plugin (e.g. npm or Composer dependencies that are only used in development as well as build files and invisible operating system files). Never include any files your plugin needs (e.g. libraries you required via Composer).
 #
-# based on https://getkirby.com/docs/guide/plugins/plugin-setup-composer from 12.10.2025 + 16.05.2026 + 31.05.2026
+# based on https://getkirby.com/docs/guide/plugins/plugin-setup-composer from 29.09.2025
+# last updated: 02.10.2026 by HeinerEF
 
 # OS files
 .DS_Store
 .php_cs.cache
 .vscode
+
+# System files
+Icon
+.DS_Store
+
+# Lock files
+.lock
+
+# Editors (sensitive workspace files)
+*.sublime-workspace
+/.vscode
+/.idea
 
 # npm modules
 /node_modules
@@ -21,9 +34,6 @@
 /vendor/**/*.xml
 /vendor/**/*.dist
 /vendor/**/readme.php
-/vendor/**/LICENSE
-/vendor/**/COPYING
-/vendor/**/VERSION
 /vendor/**/docs/*
 /vendor/**/example/*
 /vendor/**/examples/*
@@ -37,10 +47,13 @@
 !.gitattributes
 !.gitignore
 
-### added by HeinerEF:
+### added by HeinerEF
 # old files
 /old
 /old_includes
+/snippets/*.old.php
+*.old.php
 *.old.json
 *.zip
 /repro
+/dev

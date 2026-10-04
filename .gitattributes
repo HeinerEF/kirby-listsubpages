@@ -1,20 +1,22 @@
 # The .gitattributes file is similar in that it ignores files. However it doesn't ignore files completely from the repo, but instead just from the ZIP download and the installation via Composer. It should contain files that are needed in the repo, but not for use of the plugin (e.g. unit and integration tests, the dotfiles like .gitignore and .gitattributes itself, scripts for development etc.). It is optional and only needed for that last step. Again, don't ignore any files that are needed for your plugin. Otherwise the ZIP download and Composer installation methods won't work.
 #
-# based on https://getkirby.com/docs/guide/plugins/plugin-setup-composer from 12.10.2025 + 31.05.2026
+# based on https://getkirby.com/docs/guide/plugins/plugin-setup-composer from 03.10.2025
 
 # Git
 # .gitattributes export-ignore
 # .gitignore     export-ignore
+/.github/ export-ignore
 
 # old files
-*.old.php     export-ignore
-*.old.json    export-ignore
-*.tar         export-ignore
-*.zip         export-ignore
-_*            export-ignore
-old           export-ignore
+*.old.php  export-ignore
+*.old.json export-ignore
+*.tar      export-ignore
+*.zip      export-ignore
+_*         export-ignore
+repro      export-ignore
+old        export-ignore
 old_includes  export-ignore
-repro         export-ignore
+dev        export-ignore
 
 vendor/getkirby/composer-installer export-ignore
 
