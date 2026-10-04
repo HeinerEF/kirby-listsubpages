@@ -33,8 +33,8 @@ This generates the following HTML code in the front end:
 
 and then **this is visible in the frontend**:
 
-><h3>Select the desired page:</h3>
-><ul>
+><h3 class="listsubpages">Select the desired page:</h3>
+><ul class="listsubpages">
 ><li><a href="#">Subpage 1</a></li>
 ><li><a href="#">Subpage 2</a></li>
 ><li><a href="#">Subpage 3</a></li>
