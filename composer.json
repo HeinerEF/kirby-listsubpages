@@ -2,7 +2,7 @@
   "name": "heineref/kirby-listsubpages",
   "description": "The KirbyTag “listsubpages” generates a list of all subpages — e.g. the visible ones — in the form of a link list",
   "type": "kirby-plugin",
-  "version": "1.0.0-alpha6",
+  "version": "0.9.0",
   "time": "2026-09-30",
   "license": "MIT",
   "keywords": [
