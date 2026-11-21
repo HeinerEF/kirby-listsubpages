@@ -1,7 +1,7 @@
 # This file is for unifying the coding style for different editors and IDEs
 # EditorConfig is awesome: https://EditorConfig.org
 #
-# last update: 2026-10-03 by HeinerEF
+# last update: 2026-11-21 by HeinerEF
 
 # top-most EditorConfig file
 root = true
@@ -27,5 +27,3 @@ indent_size = 4
 trim_trailing_whitespace = false
 insert_final_newline = false
 
-[*.md]
-indent_size = 4
